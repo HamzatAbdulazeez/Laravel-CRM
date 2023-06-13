@@ -273,22 +273,22 @@
                                 <div class="media">
                                     <div class="media-head me-2">
                                         <div class="avatar avatar-primary avatar-sm avatar-rounded">
-                                            <span class="initial-wrap">Hk</span>
+                                            <span class="initial-wrap">{{auth()->user()->firstName[0]}}{{auth()->user()->lastName[0]}}</span>
                                         </div>
                                     </div>
                                     <div class="media-body">
                                         <div class="dropdown">
-                                            <a href="#" class="d-block dropdown-toggle link-dark fw-medium" data-bs-toggle="dropdown" data-dropdown-animation data-bs-auto-close="inside">Hencework</a>
+                                            <a href="#" class="d-block dropdown-toggle link-dark fw-medium" data-bs-toggle="dropdown" data-dropdown-animation data-bs-auto-close="inside">{{auth()->user()->firstName}}</a>
                                             <div class="dropdown-menu dropdown-menu-end">
                                                 <div class="p-2">
                                                     <div class="media align-items-center active-user mb-3">
                                                         <div class="media-head me-2">
                                                             <div class="avatar avatar-primary avatar-xs avatar-rounded">
-                                                                <span class="initial-wrap">Hk</span>
+                                                                <span class="initial-wrap">{{auth()->user()->firstName[0]}}{{auth()->user()->lastName[0]}}</span>
                                                             </div>
                                                         </div>
                                                         <div class="media-body">
-                                                            <a href="#" class="d-flex align-items-center link-dark">Hencework <i class="ri-checkbox-circle-fill fs-7 text-primary ms-1"></i></a>
+                                                            <a href="#" class="d-flex align-items-center link-dark">{{auth()->user()->firstName}} <i class="ri-checkbox-circle-fill fs-7 text-primary ms-1"></i></a>
                                                             <a href="#" class="d-block fs-8 link-secondary"><u>Manage your account</u></a>
                                                         </div>
                                                     </div>
@@ -299,8 +299,8 @@
                                                             </div>
                                                         </div>
                                                         <div class="media-body">
-                                                            <a href="#" class="d-block link-dark">Jampack Team</a>
-                                                            <a href="#" class="d-block fs-8 link-secondary">contact@hencework.com</a>
+                                                            <a href="#" class="d-block link-dark">{{auth()->user()->fullName}}</a>
+                                                            <a href="#" class="d-block fs-8 link-secondary">{{auth()->user()->email}}</a>
                                                         </div>
                                                     </div>
                                                     <button class="btn btn-block btn-outline-light btn-sm">
@@ -310,8 +310,11 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="fs-7">contact@hencework.com</div>
-                                        <a href="#" class="d-block fs-8 link-secondary"><u>Sign Out</u></a>
+                                        <div class="fs-7">{{auth()->user()->email}}</div>
+                                        <a href="{{ route('logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();"  class="d-block fs-8 link-secondary"><u>Sign Out</u></a>
+                                        <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                            {{ csrf_field() }}
+                                        </form>
                                     </div>
                                 </div>
                             </div>

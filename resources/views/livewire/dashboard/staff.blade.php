@@ -1,7 +1,5 @@
-@extends('layouts.dashboard-frontend')
-
-@section('page-content')
- <!-- Main Content -->
+<div>
+    <!-- Main Content -->
  <div class="hk-pg-wrapper pb-0">
     <!-- Page Body -->
     <div class="hk-pg-body py-0">
@@ -1510,4 +1508,4 @@
     <!-- /Page Body -->
 </div>
 <!-- /Main Content -->
-@endsection
+</div>

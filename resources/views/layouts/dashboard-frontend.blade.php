@@ -22,6 +22,7 @@
 
     <!-- CSS -->
     <link href="{{URL::asset('dist/css/style.css')}}" rel="stylesheet" type="text/css">
+    @livewireStyles
 </head>
 
 <body>
@@ -36,13 +37,15 @@
         <!-- Sidebar Ends -->
 
         <!-- Page-Content -->
-        @yield('page-content')
+        {{$slot}}
         <!-- Page-Content Ends -->
 
         <!-- Sidebar -->
         @includeIf('layouts.dashboard-footer')
         <!-- Sidebar Ends -->
     </div>
+
+    @livewireScripts
     <!-- END layout-wrapper -->
     <!-- jQuery -->
     <script src="{{URL::asset('vendors/jquery/dist/jquery.min.js')}}"></script>

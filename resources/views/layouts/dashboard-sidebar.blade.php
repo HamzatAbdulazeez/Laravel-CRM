@@ -88,7 +88,7 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#dash_contact">
+                        <a class="nav-link" href="{{route('admin.staffs')}}" >
                             <span class="nav-icon-wrap position-relative">
                                 <span class="svg-icon">
                                     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-notebook" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -99,23 +99,8 @@
                                     </svg>
                                 </span>
                             </span>
-                            <span class="nav-link-text">Contact</span>
+                            <span class="nav-link-text">Staffs</span>
                         </a>
-                        <ul id="dash_contact" class="nav flex-column collapse  nav-children">
-                            <li class="nav-item">
-                                <ul class="nav flex-column">
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="{{route('admin.contact.list')}}"><span class="nav-link-text">Contact List</span></a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="{{route('admin.contact.card')}}"><span class="nav-link-text">Contact Cards</span></a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="{{route('admin.edit.contact')}}"><span class="nav-link-text">Edit Contact</span></a>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="{{route('admin.view.customer')}}">
@@ -172,7 +157,7 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="javascript:void(0);">
+                            <a class="nav-link" href="javascript:void(0);" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
                                 <span class="nav-icon-wrap">
                                     <span class="svg-icon">
                                         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user-plus" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -183,7 +168,7 @@
                                         </svg>
                                     </span>
                                 </span>
-                                <span class="nav-link-text">Log Out</span>
+                                <span  class="nav-link-text">Log Out</span>
                             </a>
                         </li>
                     </ul>
