@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -18,8 +17,8 @@
     <link href="{{URL::asset('dash/assets/css/dataTables.bootstrap5.min.css')}}" rel="stylesheet" type="text/css" />
     <link href="{{URL::asset('dash/assets/css/responsive.bootstrap5.min.css')}}" rel="stylesheet" type="text/css" />
 
-     <!-- Perfect Scrollbar CSS -->
-     <link href="{{URL::asset('dist/css/perfect-scrollbar.css')}}" rel="stylesheet" type="text/css">
+    <!-- Perfect Scrollbar CSS -->
+    <link href="{{URL::asset('dist/css/perfect-scrollbar.css')}}" rel="stylesheet" type="text/css">
 
     <!-- CSS -->
     <link href="{{URL::asset('dist/css/style.css')}}" rel="stylesheet" type="text/css">
@@ -86,7 +85,7 @@
     <script src="{{URL::asset('dash/assets/js/chips-init.js')}}"></script>
     <script src="{{URL::asset('dash/assets/js/dashboard-data.js')}}"></script>
     <script src="{{URL::asset('dist/js/kanban-board-data.js')}}"></script>
-     <!-- Dragula JS -->
+    <!-- Dragula JS -->
     <script src="{{URL::asset('vendors/dragula/dist/dragula.min.js')}}"></script>
     <!-- Bootstrap Colorpicker JS -->
     <script src="{{URL::asset('vendors/bootstrap-colorpicker/dist/js/bootstrap-colorpicker.min.js')}}"></script>
@@ -101,8 +100,8 @@
 
     <!-- Bootstrap Dropify CSS -->
     <link href="{{URL::asset('vendors/dropify/dist/css/dropify.min.css')}}" rel="stylesheet" type="text/css" />
-     <!-- PS scroll JS -->
-     <script src="{{URL::asset('dist/js/perfect-scrollbar.min.js')}}"></script>
+    <!-- PS scroll JS -->
+    <script src="{{URL::asset('dist/js/perfect-scrollbar.min.js')}}"></script>
 </body>
 
 </html>

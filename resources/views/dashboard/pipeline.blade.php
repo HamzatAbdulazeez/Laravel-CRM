@@ -629,14 +629,6 @@
                 <!-- /Edit Task List -->
             </div>
         </div>
-        <!-- <div class="hk-fixed-footer">
-            <div class="container">
-                <div class="d-flex justify-content-center align-items-center h-80p">
-                    <button type="button" class="btn btn-danger w-200p me-3">lost</button>
-                    <button type="button" class="btn btn-primary w-200p">win</button>
-                </div>
-            </div>
-        </div> -->
     </div>
 </div>
 <!-- /Main Content -->
