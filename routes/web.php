@@ -22,4 +22,5 @@ Route::prefix('dashboard')->group(function () {
     Route::get('/all-pipeline', [App\Http\Controllers\DashboardController::class, 'pipeline'])->name('admin.all.pipeline');
     Route::get('/contact-list', [App\Http\Controllers\DashboardController::class, 'contact_list'])->name('admin.contact.list');
     Route::get('/contact-card', [App\Http\Controllers\DashboardController::class, 'contact_card'])->name('admin.contact.card');
+    Route::get('/edit-contact', [App\Http\Controllers\DashboardController::class, 'edit_contact'])->name('admin.edit.contact');
 });

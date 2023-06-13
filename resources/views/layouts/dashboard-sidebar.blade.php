@@ -111,7 +111,7 @@
                                         <a class="nav-link" href="{{route('admin.contact.card')}}"><span class="nav-link-text">Contact Cards</span></a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#"><span class="nav-link-text">Edit Contact</span></a>
+                                        <a class="nav-link" href="{{route('admin.edit.contact')}}"><span class="nav-link-text">Edit Contact</span></a>
                                     </li>
                                 </ul>
                             </li>
