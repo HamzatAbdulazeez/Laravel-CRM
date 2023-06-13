@@ -45,60 +45,6 @@
                             </ul>
                         </div>
                         <div class="separator separator-light"></div>
-                        <div class="d-flex align-items-center justify-content-between mb-2">
-                            <div class="title-sm text-primary mb-0">Favourite Boards</div>
-                            <a href="#" class="btn btn-xs btn-icon btn-rounded btn-light" data-bs-toggle="modal" data-bs-target="#add_fav_board"><span class="icon" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="Add Board"><span class="feather-icon"><i data-feather="plus"></i></span></span></a>
-                        </div>
-                        <div class="menu-group">
-                            <ul class="nav nav-light navbar-nav flex-column">
-                                <li class="nav-item">
-                                    <div>
-                                        <div class="media d-flex align-items-center">
-                                            <div class="media-head me-2">
-                                                <div class="avatar avatar-xs avatar-primary avatar-rounded">
-                                                    <span class="initial-wrap">J</span>
-                                                </div>
-                                            </div>
-                                            <div class="media-body">
-                                                <div>
-                                                    <div class="name">Jampack</div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="ms-auto">
-                                            <button class="btn btn-sm btn-icon btn-rounded btn-flush-light flush-soft-hover"><span class="icon"><span class="feather-icon"><i data-feather="lock"></i></span></span></button>
-                                            <button class="btn btn-sm btn-icon btn-rounded btn-flush-light flush-soft-hover"><span class="icon"><span class="feather-icon"><i data-feather="more-vertical"></i></span></span></button>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="nav-item">
-                                    <div>
-                                        <div class="media d-flex align-items-center">
-                                            <div class="media-head me-2">
-                                                <div class="avatar avatar-xs avatar-pink avatar-rounded">
-                                                    <span class="initial-wrap">H</span>
-                                                </div>
-                                            </div>
-                                            <div class="media-body">
-                                                <div>
-                                                    <div class="name">Hencework</div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="ms-auto">
-                                            <button class="btn btn-sm btn-icon btn-rounded btn-flush-light flush-soft-hover"><span class="icon"><span class="feather-icon"><i data-feather="globe"></i></span></span></button>
-                                            <button class="btn btn-sm btn-icon btn-rounded btn-flush-light flush-soft-hover"><span class="icon"><span class="feather-icon"><i data-feather="more-vertical"></i></span></span></button>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="alert alert-warning mt-5" role="alert">
-                            <h6 class="heading-wth-icon alert-heading"><span class="head-icon"><span class="feather-icon"><i data-feather="zap-off"></i></span></span>Trial
-                                Ends on 14 Jan</h6>
-                            <p class="fs-7">Last 3 days left for your trial to end. Renew now to stay connected.
-                            </p>
-                        </div>
                     </div>
                 </div>
                 <!--Sidebar Fixnav-->

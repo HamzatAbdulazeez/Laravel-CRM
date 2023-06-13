@@ -29,8 +29,8 @@
         <div class="menu-content-wrap">
             <div class="menu-group">
                 <ul class="navbar-nav flex-column">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="index.html">
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{route('admin.dashboard')}}">
                             <span class="nav-icon-wrap">
                                 <span class="svg-icon">
                                     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-template" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -158,18 +158,13 @@
                                 <li class="nav-item">
                                     <ul class="nav flex-column">
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">
+                                            <a class="nav-link" href="{{route('admin.profile')}}">
                                                 <span class="nav-link-text">Profile</span>
                                             </a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">
+                                            <a class="nav-link" href="{{route('admin.edit.profile')}}">
                                                 <span class="nav-link-text">Edit Profile</span>
-                                            </a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="#">
-                                                <span class="nav-link-text">Account</span>
                                             </a>
                                         </li>
                                     </ul>

@@ -45,4 +45,12 @@ class DashboardController extends Controller
     {
         return view('dashboard.customer');
     }
+    public function edit_profile()
+    {
+        return view('dashboard.edit-profile');
+    }
+    public function profile()
+    {
+        return view('dashboard.profile');
+    }
 }

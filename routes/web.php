@@ -24,4 +24,6 @@ Route::prefix('dashboard')->group(function () {
     Route::get('/contact-card', [App\Http\Controllers\DashboardController::class, 'contact_card'])->name('admin.contact.card');
     Route::get('/edit-contact', [App\Http\Controllers\DashboardController::class, 'edit_contact'])->name('admin.edit.contact');
     Route::get('/customer', [App\Http\Controllers\DashboardController::class, 'customer'])->name('admin.view.customer');
+    Route::get('/edit-profile', [App\Http\Controllers\DashboardController::class, 'edit_profile'])->name('admin.edit.profile');
+    Route::get('/profile', [App\Http\Controllers\DashboardController::class, 'profile'])->name('admin.profile');
 });
