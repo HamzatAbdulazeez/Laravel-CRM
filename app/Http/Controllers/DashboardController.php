@@ -41,4 +41,8 @@ class DashboardController extends Controller
     {
         return view('dashboard.edit-contact');
     }
+    public function customer()
+    {
+        return view('dashboard.customer');
+    }
 }
