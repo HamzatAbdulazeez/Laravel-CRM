@@ -4,7 +4,7 @@
     <div class="menu-header">
         <span>
             <a class="navbar-brand" href="3">
-                <img class="brand-img img-fluid" src="https://firstpavilion.sfo3.cdn.digitaloceanspaces.com/CrmFinance/NOLT-horizontal-logo-RGB-L.png"  style="width:200px;" alt="brand" />
+                <img class="brand-img img-fluid" src="https://firstpavilion.sfo3.cdn.digitaloceanspaces.com/CrmFinance/NOLT-horizontal-logo-RGB-L.png" style="width:200px;" alt="brand" />
                 <!-- <img class="brand-img img-fluid" src="{{URL::asset('dist/img/NOLT Finance.svg')}}" alt="brand" /> -->
             </a>
             <button class="btn btn-icon btn-rounded btn-flush-dark flush-soft-hover navbar-toggle">

@@ -84,7 +84,7 @@
     <script src="{{URL::asset('dist/js/chips-init.js')}}"></script>
     <script src="{{URL::asset('dist/js/dashboard-data.js')}}"></script>
 
-   
+
     <!-- Dragula JS -->
     <script src="{{URL::asset('vendors/dragula/dist/dragula.min.js')}}"></script>
     <!-- Bootstrap Colorpicker JS -->
