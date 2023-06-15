@@ -56,6 +56,22 @@
                 </div>
                 <ul class="navbar-nav flex-column">
                     <li class="nav-item">
+                        <a class="nav-link" href="{{route('admin.all.kanban')}}">
+                            <span class="nav-icon-wrap">
+                                <span class="svg-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-layout-kanban" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                        <line x1="4" y1="4" x2="10" y2="4" />
+                                        <line x1="14" y1="4" x2="20" y2="4" />
+                                        <rect x="4" y="8" width="6" height="12" rx="2" />
+                                        <rect x="14" y="8" width="6" height="6" rx="2" />
+                                    </svg>
+                                </span>
+                            </span>
+                            <span class="nav-link-text">Tickets</span>
+                        </a>
+                    </li>
+                    <!-- <li class="nav-item">
                         <a class="nav-link" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#dash_scrumboard">
                             <span class="nav-icon-wrap position-relative">
                                 <span class="svg-icon">
@@ -86,7 +102,7 @@
                                 </ul>
                             </li>
                         </ul>
-                    </li>
+                    </li> -->
                     <li class="nav-item">
                         <a class="nav-link" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#dash_contact">
                             <span class="nav-icon-wrap position-relative">
@@ -107,12 +123,12 @@
                                     <li class="nav-item">
                                         <a class="nav-link" href="{{route('admin.contact.list')}}"><span class="nav-link-text">Contact List</span></a>
                                     </li>
-                                    <li class="nav-item">
+                                    <!-- <li class="nav-item">
                                         <a class="nav-link" href="{{route('admin.contact.card')}}"><span class="nav-link-text">Contact Cards</span></a>
-                                    </li>
-                                    <li class="nav-item">
+                                    </li> -->
+                                    <!-- <li class="nav-item">
                                         <a class="nav-link" href="{{route('admin.edit.contact')}}"><span class="nav-link-text">Edit Contact</span></a>
-                                    </li>
+                                    </li> -->
                                 </ul>
                             </li>
                         </ul>
@@ -162,11 +178,11 @@
                                                 <span class="nav-link-text">Profile</span>
                                             </a>
                                         </li>
-                                        <li class="nav-item">
+                                        <!-- <li class="nav-item">
                                             <a class="nav-link" href="{{route('admin.edit.profile')}}">
                                                 <span class="nav-link-text">Edit Profile</span>
                                             </a>
-                                        </li>
+                                        </li> -->
                                     </ul>
                                 </li>
                             </ul>
