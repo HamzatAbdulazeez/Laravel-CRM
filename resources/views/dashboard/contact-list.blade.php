@@ -168,7 +168,7 @@
                                                 <div class="d-flex align-items-center">
                                                     <div class="d-flex">
                                                         <a class="btn btn-icon btn-flush-dark btn-rounded flush-soft-hover" data-bs-toggle="tooltip" data-placement="top" title="" data-bs-original-title="View" href="#"><span class="icon"><span class="feather-icon" data-bs-toggle="modal" data-bs-target="#view_new_contact"><i class="bi bi-eye"></i></span></span></a>
-                                                        <a class="btn btn-icon btn-flush-dark btn-rounded flush-soft-hover" data-bs-toggle="tooltip" data-placement="top" title="" data-bs-original-title="Edit" ><span class="icon"><span class="feather-icon" data-bs-toggle="modal" data-bs-target="#add_new_contactt"><i data-feather="edit"></i></span></span></a>
+                                                        <a class="btn btn-icon btn-flush-dark btn-rounded flush-soft-hover" data-bs-toggle="tooltip" data-placement="top" title="" data-bs-original-title="Edit"><span class="icon"><span class="feather-icon" data-bs-toggle="modal" data-bs-target="#add_new_contactt"><i data-feather="edit"></i></span></span></a>
                                                         <a class="btn btn-icon btn-flush-dark btn-rounded flush-soft-hover del-button" data-bs-toggle="tooltip" data-placement="top" title="" data-bs-original-title="Delete" href="#"><span class="icon"><span class="feather-icon"><i data-feather="trash"></i></span></span></a>
                                                     </div>
                                                 </div>
