@@ -49,7 +49,7 @@
                                     <div class="col-sm-6">
                                         <div class="form-group">
                                             <label class="form-label">Last Name</label>
-                                            <input class="form-control" type="text"  />
+                                            <input class="form-control" type="text" />
                                         </div>
                                     </div>
                                     <div class="col-sm-6">

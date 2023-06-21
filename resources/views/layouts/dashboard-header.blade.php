@@ -3,7 +3,6 @@
         <!-- Start Nav -->
         <div class="nav-start-wrap">
             <button class="btn btn-icon btn-rounded btn-flush-dark flush-soft-hover navbar-toggle d-xl-none"><span class="icon"><span class="feather-icon"><i data-feather="align-left"></i></span></span></button>
-
             <!-- Search -->
             <form class="dropdown navbar-search">
                 <div class="dropdown-toggle no-caret" data-bs-toggle="dropdown" data-dropdown-animation data-bs-auto-close="outside">
@@ -131,7 +130,6 @@
             <!-- /Search -->
         </div>
         <!-- /Start Nav -->
-
         <!-- End Nav -->
         <div class="nav-end-wrap">
             <ul class="navbar-nav flex-row">

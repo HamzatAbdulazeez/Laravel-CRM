@@ -178,11 +178,6 @@
                                                 <span class="nav-link-text">Profile</span>
                                             </a>
                                         </li>
-                                        <!-- <li class="nav-item">
-                                            <a class="nav-link" href="{{route('admin.edit.profile')}}">
-                                                <span class="nav-link-text">Edit Profile</span>
-                                            </a>
-                                        </li> -->
                                     </ul>
                                 </li>
                             </ul>
