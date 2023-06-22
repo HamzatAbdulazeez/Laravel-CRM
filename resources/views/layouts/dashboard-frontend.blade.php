@@ -28,6 +28,7 @@
 <body>
     <!-- Begin page -->
     <div class="hk-wrapper" data-layout="vertical" data-layout-style="default" data-menu="light" data-footer="simple">
+
         <!-- Header -->
         @includeIf('layouts.dashboard-header')
         <!-- Header Ends -->
@@ -46,9 +47,15 @@
     </div>
 
     @livewireScripts
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <x-livewire-alert::scripts />
+    <script src="{{ asset('vendor/livewire-alert/livewire-alert.js') }}"></script>
+    <x-livewire-alert::flash />
     <!-- END layout-wrapper -->
     <!-- jQuery -->
     <script src="{{URL::asset('vendors/jquery/dist/jquery.min.js')}}"></script>
+    
 
     <!-- Bootstrap Core JS -->
     <script src="{{URL::asset('vendors/bootstrap/dist/js/bootstrap.bundle.min.js')}}"></script>
@@ -105,6 +112,7 @@
     <link href="{{URL::asset('vendors/dropify/dist/css/dropify.min.css')}}" rel="stylesheet" type="text/css" />
     <!-- PS scroll JS -->
     <script src="{{URL::asset('dist/js/perfect-scrollbar.min.js')}}"></script>
+    <script src="{{URL::asset('dist/js/kanban-board-data.js')}}"></script>
 </body>
 
 </html>

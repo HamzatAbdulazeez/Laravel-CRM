@@ -8,7 +8,7 @@
                 <div class="d-flex flex-wrap justify-content-between flex-1">
                     <div class="mb-lg-0 mb-2 me-8">
                         <h1 class="pg-title">Welcome back</h1>
-                        <p>Create pages using a variety of features that leverage jampack components</p>
+                        <p>Create pages using a variety of features that leverage</p>
                     </div>
                     <div class="pg-header-action-wrap">
                         <div class="input-group w-300p">

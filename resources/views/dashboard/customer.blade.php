@@ -327,171 +327,209 @@
         </div>
         <!-- /Page Body -->
     </div>
+    <div class="modal fade" id="staticBackdrop1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <form>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="title title-xs title-wth-divider text-primary text-uppercase my-4">
+                                    <span>New Customer</span>
+                                </div>
+                                <div class="row gx-3">
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <label class="form-label">First Name</label>
+                                            <input class="form-control" type="text" required />
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <label class="form-label">Last Name</label>
+                                            <input class="form-control" type="text" required />
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <label class="form-label">Email</label>
+                                            <input class="form-control" type="email" required />
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <label class="form-label">Phone Number</label>
+                                            <input class="form-control" type="tel" required />
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12">
+                                        <div class="form-group">
+                                            <label class="form-label">Address</label>
+                                            <input class="form-control" type="text" required />
+                                        </div>
+                                    </div>
+                                    <button type="button" class="btn btn-primary mt-5">Save Changes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                            Close
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="allerting" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel2" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <form>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="title title-xs title-wth-divider text-primary text-uppercase my-4">
+                                    <span>View Customer Details</span>
+                                </div>
+                                <div class="row gx-3">
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <label class="form-label">First Name</label>
+                                            <input class="form-control" type="text" required />
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <label class="form-label">Last Name</label>
+                                            <input class="form-control" type="text" required />
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <label class="form-label">Email</label>
+                                            <input class="form-control" type="email" required />
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <label class="form-label">Phone Number</label>
+                                            <input class="form-control" type="tel" required />
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12">
+                                        <div class="form-group">
+                                            <label class="form-label">Address</label>
+                                            <input class="form-control" type="text" required />
+                                        </div>
+                                    </div>
+                                    <button type="button" class="btn btn-primary mt-5">Save Changes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                            Close
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="allertinging" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel2" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <form>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="title title-xs title-wth-divider text-primary text-uppercase my-4">
+                                    <span>Edit Customer Information</span>
+                                </div>
+                                <div class="row gx-3">
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <label class="form-label">First Name</label>
+                                            <input class="form-control" type="text" required />
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <label class="form-label">Last Name</label>
+                                            <input class="form-control" type="text" required />
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <label class="form-label">Email</label>
+                                            <input class="form-control" type="email" required />
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <label class="form-label">Phone Number</label>
+                                            <input class="form-control" type="tel" required />
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12">
+                                        <div class="form-group">
+                                            <label class="form-label">Address</label>
+                                            <input class="form-control" type="text" required />
+                                        </div>
+                                    </div>
+                                    <button type="button" class="btn btn-primary mt-5">Save Changes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                            Close
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div wire:ignore.self id="delete" class="modal fade delete" tabindex="-1" role="dialog"
+                aria-hidden="true">
+
+        <div class="modal-dialog" role="document">
+
+            <div class="modal-content">
+
+                <div class="modal-header">
+
+                    <h5 class="modal-title" id="exampleModalLabel">Delete Confirm</h5>
+
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                        aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+
+                </div>
+
+                <div class="modal-body">
+
+                    <p>Are you sure want to delete {{$name}}?</p>
+
+                </div>
+
+                <div class="modal-footer">
+
+                    <button type="button" class="btn btn-secondary close-btn" data-bs-dismiss="modal">Close</button>
+
+                    <button type="button" wire:click.prevent="delete()" class="btn btn-danger close-modal" data-bs-dismiss="modal">Yes, Delete</button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
 </div>
 <!-- /Main Content -->
 @endsection
-<div class="modal fade" id="staticBackdrop1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel1" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-            <form>
-                <div class="modal-body">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="title title-xs title-wth-divider text-primary text-uppercase my-4">
-                                <span>New Customer</span>
-                            </div>
-                            <div class="row gx-3">
-                                <div class="col-sm-6">
-                                    <div class="form-group">
-                                        <label class="form-label">First Name</label>
-                                        <input class="form-control" type="text" required />
-                                    </div>
-                                </div>
-                                <div class="col-sm-6">
-                                    <div class="form-group">
-                                        <label class="form-label">Last Name</label>
-                                        <input class="form-control" type="text" required />
-                                    </div>
-                                </div>
-                                <div class="col-sm-6">
-                                    <div class="form-group">
-                                        <label class="form-label">Email</label>
-                                        <input class="form-control" type="email" required />
-                                    </div>
-                                </div>
-                                <div class="col-sm-6">
-                                    <div class="form-group">
-                                        <label class="form-label">Phone Number</label>
-                                        <input class="form-control" type="tel" required />
-                                    </div>
-                                </div>
-                                <div class="col-sm-12">
-                                    <div class="form-group">
-                                        <label class="form-label">Address</label>
-                                        <input class="form-control" type="text" required />
-                                    </div>
-                                </div>
-                                <button type="button" class="btn btn-primary mt-5">Save Changes</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
-                        Close
-                    </button>
-                </div>
-            </form>
-        </div>
-    </div>
-</div>
-<div class="modal fade" id="allerting" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel2" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-            <form>
-                <div class="modal-body">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="title title-xs title-wth-divider text-primary text-uppercase my-4">
-                                <span>View Customer Details</span>
-                            </div>
-                            <div class="row gx-3">
-                                <div class="col-sm-6">
-                                    <div class="form-group">
-                                        <label class="form-label">First Name</label>
-                                        <input class="form-control" type="text" required />
-                                    </div>
-                                </div>
-                                <div class="col-sm-6">
-                                    <div class="form-group">
-                                        <label class="form-label">Last Name</label>
-                                        <input class="form-control" type="text" required />
-                                    </div>
-                                </div>
-                                <div class="col-sm-6">
-                                    <div class="form-group">
-                                        <label class="form-label">Email</label>
-                                        <input class="form-control" type="email" required />
-                                    </div>
-                                </div>
-                                <div class="col-sm-6">
-                                    <div class="form-group">
-                                        <label class="form-label">Phone Number</label>
-                                        <input class="form-control" type="tel" required />
-                                    </div>
-                                </div>
-                                <div class="col-sm-12">
-                                    <div class="form-group">
-                                        <label class="form-label">Address</label>
-                                        <input class="form-control" type="text" required />
-                                    </div>
-                                </div>
-                                <button type="button" class="btn btn-primary mt-5">Save Changes</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
-                        Close
-                    </button>
-                </div>
-            </form>
-        </div>
-    </div>
-</div>
-<div class="modal fade" id="allertinging" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel2" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-            <form>
-                <div class="modal-body">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="title title-xs title-wth-divider text-primary text-uppercase my-4">
-                                <span>Edit Customer Information</span>
-                            </div>
-                            <div class="row gx-3">
-                                <div class="col-sm-6">
-                                    <div class="form-group">
-                                        <label class="form-label">First Name</label>
-                                        <input class="form-control" type="text" required />
-                                    </div>
-                                </div>
-                                <div class="col-sm-6">
-                                    <div class="form-group">
-                                        <label class="form-label">Last Name</label>
-                                        <input class="form-control" type="text" required />
-                                    </div>
-                                </div>
-                                <div class="col-sm-6">
-                                    <div class="form-group">
-                                        <label class="form-label">Email</label>
-                                        <input class="form-control" type="email" required />
-                                    </div>
-                                </div>
-                                <div class="col-sm-6">
-                                    <div class="form-group">
-                                        <label class="form-label">Phone Number</label>
-                                        <input class="form-control" type="tel" required />
-                                    </div>
-                                </div>
-                                <div class="col-sm-12">
-                                    <div class="form-group">
-                                        <label class="form-label">Address</label>
-                                        <input class="form-control" type="text" required />
-                                    </div>
-                                </div>
-                                <button type="button" class="btn btn-primary mt-5">Save Changes</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
-                        Close
-                    </button>
-                </div>
-            </form>
-        </div>
-    </div>
-</div>
+
