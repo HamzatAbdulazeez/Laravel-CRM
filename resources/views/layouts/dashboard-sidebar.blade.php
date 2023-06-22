@@ -57,8 +57,29 @@
                 <ul class="navbar-nav flex-column">
 
                     <li class="nav-item">
+<<<<<<< HEAD
                         <a class="nav-link" href="{{route('admin.view.customer')}}">
                             <span class="nav-icon-wrap">
+=======
+                        <a class="nav-link" href="{{route('admin.all.kanban')}}">
+                            <span class="nav-icon-wrap">
+                                <span class="svg-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-layout-kanban" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                        <line x1="4" y1="4" x2="10" y2="4" />
+                                        <line x1="14" y1="4" x2="20" y2="4" />
+                                        <rect x="4" y="8" width="6" height="12" rx="2" />
+                                        <rect x="14" y="8" width="6" height="6" rx="2" />
+                                    </svg>
+                                </span>
+                            </span>
+                            <span class="nav-link-text">Tickets</span>
+                        </a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#dash_scrumboard">
+                            <span class="nav-icon-wrap position-relative">
+>>>>>>> f8b584996ae28d265e7ca818415db931c4b5e9b9
                                 <span class="svg-icon">
                                     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-list-details" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                         <path stroke="none" d="M0 0h24v24H0z" fill="none" />
@@ -73,7 +94,27 @@
                             </span>
                             <span class="nav-link-text">Customers</span>
                         </a>
+<<<<<<< HEAD
                     </li>
+=======
+                        <ul id="dash_scrumboard" class="nav flex-column collapse  nav-children">
+                            <li class="nav-item">
+                                <ul class="nav flex-column">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="{{route('admin.all.board')}}"><span class="nav-link-text">All Boards</span></a>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="{{route('admin.all.kanban')}}"><span class="nav-link-text">Project Kanban</span></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="{{route('admin.all.pipeline')}}"><span class="nav-link-text">Pipeline Kanban</span></a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li> -->
+>>>>>>> f8b584996ae28d265e7ca818415db931c4b5e9b9
                     <li class="nav-item">
                         <a class="nav-link" href="{{route('admin.staffs')}}" >
                             <span class="nav-icon-wrap position-relative">
@@ -88,6 +129,24 @@
                             </span>
                             <span class="nav-link-text">Staffs</span>
                         </a>
+<<<<<<< HEAD
+=======
+                        <ul id="dash_contact" class="nav flex-column collapse  nav-children">
+                            <li class="nav-item">
+                                <ul class="nav flex-column">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="{{route('admin.contact.list')}}"><span class="nav-link-text">Contact List</span></a>
+                                    </li>
+                                    <!-- <li class="nav-item">
+                                        <a class="nav-link" href="{{route('admin.contact.card')}}"><span class="nav-link-text">Contact Cards</span></a>
+                                    </li> -->
+                                    <!-- <li class="nav-item">
+                                        <a class="nav-link" href="{{route('admin.edit.contact')}}"><span class="nav-link-text">Edit Contact</span></a>
+                                    </li> -->
+                                </ul>
+                            </li>
+                        </ul>
+>>>>>>> f8b584996ae28d265e7ca818415db931c4b5e9b9
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="{{route('admin.tickets')}}">
@@ -130,11 +189,6 @@
                                         <li class="nav-item">
                                             <a class="nav-link" href="{{route('admin.profile')}}">
                                                 <span class="nav-link-text">Profile</span>
-                                            </a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="{{route('admin.edit.profile')}}">
-                                                <span class="nav-link-text">Edit Profile</span>
                                             </a>
                                         </li>
                                     </ul>

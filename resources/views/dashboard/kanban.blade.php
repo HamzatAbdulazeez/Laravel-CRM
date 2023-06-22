@@ -18,30 +18,6 @@
                                         <span class="nav-link-text">All Boards</span>
                                     </a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="javascript:void(0);">
-                                        <span class="nav-icon-wrap"><span class="feather-icon"><i data-feather="star"></i></span></span>
-                                        <span class="nav-link-text">Stared Boards</span>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="javascript:void(0);">
-                                        <span class="nav-icon-wrap"><span class="feather-icon"><i data-feather="lock"></i></span></span>
-                                        <span class="nav-link-text">Private Boards</span>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="javascript:void(0);">
-                                        <span class="nav-icon-wrap"><span class="feather-icon"><i data-feather="user-check"></i></span></span>
-                                        <span class="nav-link-text">Public Boards</span>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="javascript:void(0);">
-                                        <span class="nav-icon-wrap"><span class="feather-icon"><i data-feather="trash-2"></i></span></span>
-                                        <span class="nav-link-text">Deleted</span>
-                                    </a>
-                                </li>
                             </ul>
                         </div>
                         <div class="separator separator-light"></div>
@@ -51,15 +27,6 @@
                 <div class="taskboardapp-fixednav">
                     <div class="hk-toolbar">
                         <ul class="nav nav-light">
-                            <li class="nav-item nav-link">
-                                <a class="btn btn-icon btn-flush-dark btn-rounded flush-soft-hover" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="Settings" href="#"><span class="icon"><span class="feather-icon"><i data-feather="settings"></i></span></span></a>
-                            </li>
-                            <li class="nav-item nav-link">
-                                <a href="#" class="btn btn-icon btn-rounded btn-flush-dark flush-soft-hover" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="Archive"><span class="icon"><span class="feather-icon"><i data-feather="archive"></i></span></span></a>
-                            </li>
-                            <li class="nav-item nav-link">
-                                <a href="#" class="btn btn-icon btn-rounded btn-flush-dark flush-soft-hover" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="Help"><span class="icon"><span class="feather-icon"><i data-feather="book"></i></span></span></a>
-                            </li>
                         </ul>
                     </div>
                 </div>
@@ -81,7 +48,6 @@
                                             <span class="input-prefix"><i class="ri-lock-line"></i></span>
                                             <select class="form-select">
                                                 <option selected="" value="1">Private Board</option>
-                                                <option value="2">Public Board</option>
                                             </select>
                                         </span>
                                     </div>
@@ -89,36 +55,12 @@
                             </div>
                         </div>
                         <select class="form-select d-xxl-none flex-1 mx-3">
-                            <option selected="" value="1">Task Board</option>
-                            <option value="2">Conversation</option>
-                            <option value="3">To Do List</option>
-                            <option value="4">Files</option>
-                            <option value="5">Links</option>
+                            <option selected="" value="Task Board">Task Board</option>
                         </select>
                         <ul class="nav nav-pills nav-pills-rounded active-theme nav-light px-2 flex-shrink-0 d-xxl-flex d-none">
                             <li class="nav-item">
                                 <a class="nav-link active" href="javascript:void(0);">
                                     <span class="nav-link-text">Task Board</span>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="javascript:void(0);">
-                                    <span class="nav-link-text">Conversation</span>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="javascript:void(0);">
-                                    <span class="nav-link-text">To Do List</span>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="javascript:void(0);">
-                                    <span class="nav-link-text">Files</span>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="javascript:void(0);">
-                                    <span class="nav-link-text">Links</span>
                                 </a>
                             </li>
                         </ul>
@@ -138,11 +80,11 @@
                                         <img src="{{URL::asset('dist/img/avatar2.jpg')}}" alt="user" class="avatar-img">
                                     </div>
                                     <div class="avatar avatar-icon avatar-primary avatar-rounded" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="Tooltip text">
-                                        <span class="initial-wrap"><span class="feather-icon"><i data-feather="plus"></i></span></span>
+                                        <span class="initial-wrap"><span class="feather-icon" data-bs-toggle="modal" data-bs-target="#add_new_board"><i data-feather="plus"></i></span></span>
                                     </div>
                                 </div>
                                 <div class="v-separator d-xl-flex d-none"></div>
-                                <a class="btn btn-icon btn-flush-dark btn-rounded flush-soft-hover taskboardapp-info-toggle ms-xl-0" href="#"><span class="icon" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="Info"><span class="feather-icon"><i data-feather="info"></i></span></span></a>
+
                                 <a class="btn btn-icon btn-flush-dark btn-rounded flush-soft-hover hk-navbar-togglable d-sm-inline-block d-none" href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="Collapse">
                                     <span class="icon">
                                         <span class="feather-icon"><i data-feather="chevron-up"></i></span>
@@ -1588,247 +1530,6 @@
                             </div>
                         </div>
                     </div>
-                    <div class="taskboard-info">
-                        <div data-simplebar class="nicescroll-bar">
-                            <button type="button" class="info-close btn-close mb-10">
-                                <span aria-hidden="true">×</span>
-                            </button>
-                            <form role="search" class="mt-xl-0 mt-5">
-                                <input type="text" class="form-control" placeholder="Search in conversation">
-                            </form>
-                            <div class="collapse-simple mt-4">
-                                <div class="card">
-                                    <div class="card-header">
-                                        <a role="button" data-bs-toggle="collapse" href="#members" aria-expanded="true">Members</a>
-                                    </div>
-                                    <div id="members" class="collapse show">
-                                        <div class="card-body">
-                                            <ul class="hk-list">
-                                                <li>
-                                                    <div class="avatar avatar-sm avatar-primary avatar-rounded" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="Hencework">
-                                                        <span class="initial-wrap">H</span>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div class="avatar avatar-sm avatar-rounded" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="Morgan">
-                                                        <img src="{{URL::asset('dist/img/avatar2.jpg')}}" alt="user" class="avatar-img">
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div class="avatar avatar-sm avatar-rounded" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="Charlie">
-                                                        <img src="{{URL::asset('dist/img/avatar13.jpg')}}" alt="user" class="avatar-img">
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div class="avatar avatar-sm avatar-rounded position-relative" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="Tom">
-                                                        <img src="{{URL::asset('dist/img/avatar7.jpg')}}" alt="user" class="avatar-img">
-                                                        <span class="badge badge-success badge-indicator badge-indicator-lg position-bottom-end-overflow-1"></span>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div class="avatar avatar-sm avatar-rounded" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="Katherine">
-                                                        <img src="dist/img/avatar9.jpg" alt="user" class="avatar-img">
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div class="avatar avatar-sm avatar-rounded position-relative" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="Danial">
-                                                        <img src="dist/img/avatar10.jpg" alt="user" class="avatar-img">
-                                                        <span class="badge badge-success badge-indicator badge-indicator-lg position-bottom-end-overflow-1"></span>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div class="avatar avatar-sm avatar-rounded position-relative" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="Boss">
-                                                        <img src="dist/img/avatar15.jpg" alt="user" class="avatar-img">
-                                                        <span class="badge badge-success badge-indicator badge-indicator-lg position-bottom-end-overflow-1"></span>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div class="avatar avatar-sm avatar-soft-danger avatar-rounded" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="Winston">
-                                                        <span class="initial-wrap">W</span>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <a href="#" class="avatar avatar-sm avatar-icon avatar-soft-light avatar-rounded" data-bs-toggle="modal" data-bs-target="#invite_people">
-                                                        <span class="initial-wrap" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="Add New">
-                                                            <span class="feather-icon"><i data-feather="plus"></i></span>
-                                                        </span>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="card">
-                                    <div class="card-header">
-                                        <a role="button" data-bs-toggle="collapse" href="#activity" aria-expanded="true">Latest Activity</a>
-                                    </div>
-                                    <div id="activity" class="collapse show">
-                                        <div class="card-body">
-                                            <ul class="activity-list list-group list-group-flush">
-                                                <li class="list-group-item">
-                                                    <div class="media">
-                                                        <div class="media-head">
-                                                            <div class="avatar avatar-sm avatar-primary avatar-rounded">
-                                                                <span class="initial-wrap">H</span>
-                                                            </div>
-                                                        </div>
-                                                        <div class="media-body">
-                                                            <p><span class="text-dark">Hencework</span> on
-                                                                Documentation link is working now - <a href="#" class="link-url"><u>ttps://hencework.com/theme/jampa</u></a>
-                                                            </p>
-                                                            <div class="last-activity-time">Oct 15, 2021, 12:34
-                                                                PM</div>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li class="list-group-item">
-                                                    <div class="media">
-                                                        <div class="media-head">
-                                                            <div class="avatar avatar-sm avatar-rounded">
-                                                                <img src="{{URL::asset('dist/img/avatar2.jpg')}}" alt="user" class="avatar-img">
-                                                            </div>
-                                                        </div>
-                                                        <div class="media-body">
-                                                            <p><span class="text-dark">Morgan Fregman</span>
-                                                                completed react conversion of <a href="#" class="link-default"><u>components</u></a>
-                                                            </p>
-                                                            <div class="last-activity-time">Sep 16, 2021, 4:54
-                                                                PM</div>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li class="list-group-item">
-                                                    <div class="media">
-                                                        <div class="media-head">
-                                                            <div class="avatar avatar-sm avatar-rounded">
-                                                                <img src="{{URL::asset('dist/img/avatar13.jpg')}}" alt="user" class="avatar-img">
-                                                            </div>
-                                                        </div>
-                                                        <div class="media-body">
-                                                            <p><span class="text-dark">Jimmy
-                                                                    Carry</span>completed side bar menu on <a href="#" class="link-default"><u>elements</u></a></p>
-                                                            <div class="last-activity-time">Sep 10, 2021, 10:13
-                                                                AM</div>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li class="list-group-item">
-                                                    <div class="media">
-                                                        <div class="media-head">
-                                                            <div class="avatar avatar-sm avatar-rounded">
-                                                                <img src="{{URL::asset('dist/img/avatar7.jpg')}}" alt="user" class="avatar-img">
-                                                            </div>
-                                                        </div>
-                                                        <div class="media-body">
-                                                            <p><span class="text-dark">Charlie Chaplin</span>
-                                                                deleted empty cards on <a href="#" class="link-default"><u>completed</u></a>
-                                                            </p>
-                                                            <div class="last-activity-time">Sep 10, 2021, 10:13
-                                                                AM</div>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li class="list-group-item">
-                                                    <div class="media">
-                                                        <div class="media-head">
-                                                            <div class="avatar avatar-sm avatar-soft-danger avatar-rounded">
-                                                                <span class="initial-wrap">W</span>
-                                                            </div>
-                                                        </div>
-                                                        <div class="media-body">
-                                                            <p><span class="text-dark">Winston Churchills</span>
-                                                                created a note on UI components task list</p>
-                                                            <div class="last-activity-time">Sep 2, 2021, 9:23 AM
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li class="list-group-item">
-                                                    <div class="media">
-                                                        <div class="media-head">
-                                                            <div class="avatar avatar-sm avatar-rounded">
-                                                                <img src="{{URL::asset('dist/img/avatar2.jpg')}}" alt="user" class="avatar-img">
-                                                            </div>
-                                                        </div>
-                                                        <div class="media-body">
-                                                            <p><span class="text-dark">Morgan Fregman</span>
-                                                                completed react conversion of <a href="#" class="link-default"><u>components</u></a>
-                                                            </p>
-                                                            <div class="last-activity-time">Sep 16, 2021, 4:54
-                                                                PM</div>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li class="list-group-item">
-                                                    <div class="media">
-                                                        <div class="media-head">
-                                                            <div class="avatar avatar-sm avatar-rounded">
-                                                                <img src="{{URL::asset('dist/img/avatar13.jpg')}}" alt="user" class="avatar-img">
-                                                            </div>
-                                                        </div>
-                                                        <div class="media-body">
-                                                            <p><span class="text-dark">Jimmy Carry</span>added
-                                                                shared components to <a href="#" class="link-default"><u>basic
-                                                                        structure</u></a></p>
-                                                            <div class="last-activity-time">Sep 10, 2021, 10:13
-                                                                AM</div>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li class="list-group-item">
-                                                    <div class="media">
-                                                        <div class="media-head">
-                                                            <div class="avatar avatar-sm avatar-primary avatar-rounded">
-                                                                <span class="initial-wrap">H</span>
-                                                            </div>
-                                                        </div>
-                                                        <div class="media-body">
-                                                            <p><span class="text-dark">Hencework</span>
-                                                                commented on <a href="#" class="link-default"><u>basic
-                                                                        structure</u></a></p>
-                                                            <div class="last-activity-time">Sep 10, 2021, 10:13
-                                                                AM</div>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li class="list-group-item">
-                                                    <div class="media">
-                                                        <div class="media-head">
-                                                            <div class="avatar avatar-sm avatar-rounded">
-                                                                <img src="{{URL::asset('dist/img/avatar7.jpg')}}" alt="user" class="avatar-img">
-                                                            </div>
-                                                        </div>
-                                                        <div class="media-body">
-                                                            <p><span class="text-dark">Charlie Chaplin</span>
-                                                                moved components from all modules to in progress
-                                                            </p>
-                                                            <div class="last-activity-time">Sep 10, 2021, 10:13
-                                                                AM</div>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li class="list-group-item">
-                                                    <div class="media">
-                                                        <div class="media-head">
-                                                            <div class="avatar avatar-sm avatar-soft-danger avatar-rounded">
-                                                                <span class="initial-wrap">W</span>
-                                                            </div>
-                                                        </div>
-                                                        <div class="media-body">
-                                                            <p><span class="text-dark">Winston Churchills</span>
-                                                                created a note on UI components task list</p>
-                                                            <div class="last-activity-time">Sep 10, 2021, 10:13
-                                                                AM</div>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
                 <!-- Task Details -->
                 <div id="task_detail" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
@@ -2895,8 +2596,7 @@
                                     <span aria-hidden="true">×</span>
                                 </button>
                                 <h5>Add New Board</h5>
-                                <p class="mb-4">You are granted limited license only for purposes of viewing the
-                                    material contained on this Website.</p>
+                                <p class="mb-4"></p>
                                 <form>
                                     <div class="row gx-3">
                                         <div class="col-sm-12">

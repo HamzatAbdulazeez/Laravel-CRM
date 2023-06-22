@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8" />
     <title> {{config('app.name')}} - Admin CRM Dashboard</title>
@@ -9,8 +8,6 @@
     <meta content="A modern CRM Dashboard NOLT Finance" name="A modern CRM Dashboard NOLT Finance" />
     <!-- App favicon -->
     <link rel="shortcut icon" href="https://firstpavilion.sfo3.cdn.digitaloceanspaces.com/CrmFinance/NOLT-horizontal-logo-RGB-L%20(1).png" />
-
-
     <!-- Daterangepicker CSS -->
     <link href="{{URL::asset('dash/assets/css/daterangepicker.css')}}" rel="stylesheet" type="text/css" />
     <!-- Data Table CSS -->
@@ -55,7 +52,7 @@
     <!-- END layout-wrapper -->
     <!-- jQuery -->
     <script src="{{URL::asset('vendors/jquery/dist/jquery.min.js')}}"></script>
-    
+
 
     <!-- Bootstrap Core JS -->
     <script src="{{URL::asset('vendors/bootstrap/dist/js/bootstrap.bundle.min.js')}}"></script>
