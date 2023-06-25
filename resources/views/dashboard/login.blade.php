@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <!-- Meta Tags -->
     <meta charset="UTF-8">
@@ -94,7 +93,6 @@
                 </footer>
             </div>
             <!-- / Page Footer -->
-
         </div>
         <!-- /Main Content -->
     </div>
